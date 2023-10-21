@@ -8,7 +8,7 @@ Proyecto de Diseño y Evaluación de Interfaz
 
 ![image](https://github.com/AlexisRodriguez4207/Plant-Care-Reminder/assets/76824745/7ca5b295-ed19-4ad2-a4cf-37f390bf8580)
 
+![image](https://github.com/AlexisRodriguez4207/Plant-Care-Reminder/assets/76824745/c3799454-9295-4b0a-9a54-caf43eca84d1)
 
-![image](https://github.com/AlexisRodriguez4207/Plant-Care-Reminder/assets/76824745/8a3f1045-2357-42fe-a461-31feca7a1a3f)
 
 
