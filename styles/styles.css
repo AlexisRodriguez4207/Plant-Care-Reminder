@@ -34,6 +34,7 @@ h1 {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 /* Effect */
@@ -75,6 +76,12 @@ a {
   width: 100px;
   height: 100%;
   border-radius: 10px;
+}
+
+.Logo2 {
+  width: 200px;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .carouselT {
@@ -130,6 +137,8 @@ a {
   height: 250px;
 }
 
+/* Cuidados */
+
 .boton-modal,
 .boton-modal2 {
   padding: 40px;
@@ -148,9 +157,7 @@ a {
 .boton-modal2 label:hover {
   background-color: #185e83;
 }
-/*:::Fin Boton-Modal:::*/
 
-/*:::Ventana Modal:::*/
 #btn-modal,
 #btn-modal2 {
   display: none;
@@ -228,4 +235,172 @@ a {
     width: 90%;
   }
 }
-/*:::Fin Ventana Modal:::*/
+
+/* Textos Cuidados */
+.cont {
+  position: relative;
+  min-width: 1100px;
+  min-height: 550px;
+  display: flex;
+}
+
+.cont .contInf {
+  position: absolute;
+  top: 40px;
+  background-color: #fa4c4c;
+  width: 320px;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  height: calc(100% - 80px);
+}
+
+.cont .contInf h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.cont .contInf ul.info {
+  position: relative;
+  margin: 20px 0;
+}
+
+.cont .contInf ul.info li {
+  position: relative;
+  list-style-type: none;
+  display: flex;
+  margin: 20px 0;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.cont .contInf ul.info li span:nth-child(1) {
+  width: 30px;
+  min-width: 30px;
+}
+
+.cont .contInf ul.info li span img {
+  max-width: 100%;
+  filter: invert(1);
+  opacity: 0.5;
+}
+
+.cont .contInf ul.info li span:nth-child(2) {
+  color: #fff;
+  margin-left: 10px;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+.cont .contInf ul.info li:hover span img,
+.cont .contInf ul.info li:hover span:nth-child(2) {
+  opacity: 1;
+}
+
+.cont .contInf ul.socialIcon {
+  position: relative;
+  display: flex;
+}
+
+.cont .contInf ul.socialIcon li {
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+.cont .contInf ul.socialIcon li a img {
+  filter: invert(1);
+  opacity: 0.5;
+}
+
+.cont .contInf ul.socialIcon li a img:hover {
+  opacity: 1;
+}
+
+.cont .contactForm {
+  position: absolute;
+  background-color: #fff;
+  padding: 70px 50px;
+  padding-left: 250px;
+  margin-left: 150px;
+  height: 100%;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+.cont .contactForm h2 {
+  color: #0f3959;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.cont .contactForm .formBox {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.cont .contactForm .formBox .inputBox {
+  position: relative;
+  margin: 0 0 35px 0;
+}
+
+.cont .contactForm .formBox .inputBox.w50 {
+  width: 47%;
+}
+
+.cont .contactForm .formBox .inputBox.w100 {
+  width: 100%;
+}
+
+.cont .contactForm .formBox .inputBox input,
+.cont .contactForm .formBox .inputBox textarea {
+  width: 100%;
+  resize: none;
+  padding: 10px 5px;
+  font-size: 18px;
+  color: #333;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #777;
+}
+
+.cont .contactForm .formBox .inputBox span {
+  position: absolute;
+  left: 5px;
+  padding: 5px 0;
+  pointer-events: none;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.cont .contactForm .formBox .inputBox input:focus ~ span,
+.cont .contactForm .formBox .inputBox input:valid ~ span,
+.cont .contactForm .formBox .inputBox textarea:focus ~ span,
+.cont .contactForm .formBox .inputBox textarea:valid ~ span {
+  transform: translateY(-20px);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: deeppink;
+  font-family: arial;
+}
+
+.cont .contactForm .formBox .inputBox input[type="submit"] {
+  position: relative;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px;
+}
+
+.cont .contactForm .formBox .inputBox input[type="submit"]:hover {
+  background-color: #fa4c4c;
+  font-weight: 500;
+}

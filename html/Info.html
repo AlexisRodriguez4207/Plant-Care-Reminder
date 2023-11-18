@@ -20,7 +20,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
-              src="../img/Logo.png"
+              src="/img/Logo.png"
               alt=""
               width="100"
               height="100%"
@@ -48,17 +48,17 @@
                   class="nav-link active"
                   aria-current="page"
                   href="../index.html"
-                  >Home</a
+                  >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Info.html">About</a>
+                <a class="nav-link" href="Galeria.html">Galería</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Galeria.html">Photos</a>
+                <a class="nav-link" href="Info.html">Información y Cuidados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Message</a>
+                <a class="nav-link" href="Contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
@@ -66,57 +66,801 @@
       </nav>
     </header>
     <main>
-      <br />
-      <section id="Galeria" class="container">
-        <div class="text-center pt-5">
-          <h1>Galería de Plantas</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
-            accusantium consectetur. Dolorem est laudantium tempore culpa, harum
-            asperiores similique magni obcaecati consequatur corporis. Officiis
-            ad at deserunt dolor quaerat ipsum!
-          </p>
+      <section id="Cares" class="row mx-5">
+        <div class="text-center">
+          <h1>Cuidados de Plantas</h1>
+          <br />
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="../img/Bugambilia.png" alt="Galeria Imagen" />
+
+        <!-- Tarjeta 1 -->
+        <div class="col">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/arum.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Arum Lily</h1>
+              <p class="card-text">
+                Son originarios de Sudáfrica y son considerados como la flor
+                nacional de Etiopía, aunque actualmente se cultiva en diferentes
+                zonas de clima tropical y cálido del mundo. Su color más común
+                es el blanco, pero también puedes encontrarlas en tonos
+                amarillos, naranjas, rosas y hasta violetas.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal"> Mas Información </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal" />
+              <div class="container-modal">
+                <div class="content-modal">
+                  <div>
+                    <img src="../img/arum.jpg" style="height: 150px" alt="" />
+                  </div>
+                  <h2 class="text-center">Cuidados</h2>
+                  <p>
+                    <li>
+                      Su floración se produce a principios de la primavera y
+                      hasta finales del verano, épocas en las que necesitan
+                      mucha agua
+                    </li>
+                    <br />
+                    <li>
+                      No se recomienda exponerlas al sol directamente, son
+                      plantas de semisombra, por lo que necesitan un lugar con
+                      luz, pero fresco.
+                    </li>
+                    <br />
+                    <li>
+                      Un lugar ideal para colocarlos es en donde le de la luz
+                      matutina, pero a partir del medio día le de
+                      indirectamente.
+                    </li>
+                    <br />
+                    <li>
+                      Sí necesitan un lugar iluminado, si están totalmente en la
+                      sombra no producen flores.
+                    </li>
+                    <br />
+                    <li>
+                      Es normal que se marchiten un poco durante en invierno,
+                      pues señalan que están en reposo y renutriendose para
+                      volver a florear en primavera.
+                    </li>
+                  </p>
+                  <div class="btn-cerrar">
+                    <label for="btn-modal">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal" class="cerrar-modal"></label>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="../img/Cactus.png" alt="Galeria Imagen" />
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="col ml-5">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/Blue orchid.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Blue Orchid</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Mas Información </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="../img/Clavel.jpg" alt="Galeria Imagen" />
+        </div>
+        <!-- Tarjeta 3 -->
+        <div class="col ml-5">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/Bugambilia.png"
+              class="card-img-top"
+              alt="GCuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Bugambilia</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="../img/Girasol.jpg" alt="Galeria Imagen" />
+        </div>
+        <!-- Tarjeta 4 -->
+        <div class="col ml-5">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/Cactus.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Cactus</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="../img/Orquideas.jpg" alt="Galeria Imagen" />
+        </div>
+        <!-- Tarjeta 5 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/Clavel.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Clavel</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="../img/Peonias.jpeg" alt="Galeria Imagen" />
+        </div>
+        <!-- Tarjeta 6 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/Girasol.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Girasol</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="../img/Rosa Floribunda.jpg" alt="Galeria Imagen" />
+        </div>
+        <!-- Tarjeta 7 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/jacinto.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Jacinto</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="../img/Tulipanes.jpg" alt="Galeria Imagen" />
+        </div>
+        <!-- Tarjeta 8 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/orquídeas.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Orquideas</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="../img/arum.jpg" alt="Galeria Imagen" />
+        </div>
+
+        <!-- Tarjeta 9 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/Peonias.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantasas"
+            />
+            <div class="card-body">
+              <h1>Peonias</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="../img/Blue orchid.jpg" alt="Galeria Imagen" />
+        </div>
+
+        <!-- Tarjeta 10 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/Rosa Floribunda.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Rosa Floribunda</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="../img/Violeta.jpg" alt="Galeria Imagen" />
+        </div>
+
+        <!-- Tarjeta 11 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/Tulipanes.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Tulipanes</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="../img/jacinto.jpg" alt="Galeria Imagen" />
+        </div>
+
+        <!-- Tarjeta 12 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/Violeta.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Violeta</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 13 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/jacinto.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Jacinto</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 14 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/Dalia.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Dalia</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 15 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/Amapola.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Amapola</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 16 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/Helechos.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Helechos</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 17 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/FlorLoto.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Flor De Lota</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 18 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/PCm.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Planta Carnivora Drosera</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 19 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12 Th" style="width: 18rem">
+            <img
+              src="../img/PCVenus.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Helechos</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+
+              <div class="boton-modal">
+                <label for="btn-modal2"> Abrir Modal </label>
+              </div>
+
+              <input type="checkbox" id="btn-modal2" />
+              <div class="container-modal2">
+                <div class="content-modal2">
+                  <h2>Blue Orchid!</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, nostrum!
+                  </p>
+                  <div class="btn-cerrar2">
+                    <label for="btn-modal2">Cerrar</label>
+                  </div>
+                </div>
+                <label for="btn-modal2" class="cerrar-modal2"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 20 -->
+        <div class="col ml-5 mt-4">
+          <div class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem">
+            <img
+              src="../img/setas.jpg"
+              class="card-img-top"
+              alt="Cuidados Plantas"
+            />
+            <div class="card-body">
+              <h1>Setas</h1>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                possimus neque, amet odit culpa soluta provident? Dolorum
+                incidunt impedit excepturi eius quasi sunt officiis, placeat
+                cupiditate aliquid repellat sequi tempora.
+              </p>
+            </div>
           </div>
         </div>
       </section>
     </main>
+    <br /><br />
+
+    <!-- Footer -->
     <footer class="bg-dark text-white py-5">
       <div class="container">
         <nav class="row">
